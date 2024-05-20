@@ -134,8 +134,8 @@ a{
 
 
 #horarios{
-    background-position: 600px;
     background-position-y: 145px;
+    background-position-x: right;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
     margin: 80px 0px;
@@ -198,7 +198,7 @@ a{
 #fondo{
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("multimedia/Descarga\(2\).jpeg");
     background-position-y: 180px;
-    background-position-x: -99px;
+    background-position-x: left;
     background-repeat: no-repeat;
     margin: 80px 0px;
 }
@@ -335,7 +335,7 @@ a{
 
 #fondo2{
     margin: 0%;
-    background-position: 600px;
+    background-position-x: right;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
     height: 300px;
@@ -486,18 +486,18 @@ a{
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 600px) {
     
     #fondo2{
         margin: 0%;
-        background-position: 450px;
+        background-position-x: right;
         background-repeat: repeat-x;
         background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
         height: 500px;
     }
 
     #horarios{
-        background-position: 513px;
+        background-position-x: right;
         background-position-y: 145px;
         background-repeat: repeat-x;
         background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
